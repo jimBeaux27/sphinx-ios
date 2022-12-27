@@ -680,6 +680,7 @@ extension AllTribeFeedsCollectionViewController: NSFetchedResultsControllerDeleg
             self?.onNewResultsFetched(1)
         }
     }
+
 }
 
 extension AllTribeFeedsCollectionViewController: DashboardFeedHeaderDelegate {
