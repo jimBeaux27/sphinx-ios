@@ -195,7 +195,6 @@ extension AllTribeFeedsCollectionViewController {
         addTableBottomInset(for: collectionView)
         
         loadRecommendations()
-        fetchItems()
     }
     
     func addTableBottomInset(for collectionView: UICollectionView) {
