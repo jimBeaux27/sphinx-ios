@@ -616,7 +616,9 @@ extension AllTribeFeedsCollectionViewController {
         let savedRecommendations = recommendationsHelper.getSavedRecommendations()
         
         if (!savedRecommendations.isEmpty && !forceRefresh) {
-            updateWithNew(recommendations: savedRecommendations)
+            DispatchQueue.main.sync {
+                updateWithNew(recommendations: savedRecommendations)
+            }
             return
         }
         
