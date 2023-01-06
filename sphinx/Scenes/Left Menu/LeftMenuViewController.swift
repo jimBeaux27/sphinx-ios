@@ -37,7 +37,7 @@ class LeftMenuViewController: UIViewController {
         MenuOption(iconCharacter: "", optionTitle: "left-menu.dashboard".localized),
         MenuOption(iconCharacter: "", optionTitle: "left-menu.contacts".localized),
         MenuOption(iconCharacter: "", optionTitle: "left-menu.profile".localized),
-        MenuOption(iconCharacter: "🔍", optionTitle: "Discover")
+        MenuOption(iconCharacter: "search", optionTitle: "left-menu.discover".localized)
     ]
     
     let kMenuRowHeight: CGFloat = 65
